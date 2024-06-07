@@ -1,0 +1,25 @@
+/* Navbar */
+
+.custom-navbar {
+    background-color: #dd2020 !important; 
+}
+
+/* Hero */
+
+.hero {
+    background-color: #dd2020;
+}
+
+.hero-img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-wrap > img {
+    height: 500px;
+}
+
+.hero .hero-img-wrap:after {
+    right: -15px;
+}

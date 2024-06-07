@@ -1,18 +1,29 @@
+let myform = document.getElementById('formulario');
+let name = document.getElementById('name');
+let email = document.getElementById('email');
+
 let loaded = ( eventLoaded ) => {
   
-    let myform = document.getElementById('formulario');
+    
   
     myform.addEventListener('submit', ( eventSubmit ) => { 
         eventSubmit.preventDefault();
 
-        let element1Value = element1.value;
+        let nammeValue =  name.value;
+        let emailValue = email.value;
 
-        if( element1Value.length == 0 ) {
-            element1.focus()
-            alert('Ingrese un texto válido')
+        if( nammeValue.length == 0 ) {
+            name.focus()
+            alert('Ingrese un nombre válido')
             return;
         }
     
+        if( nammeValue.length == 0 ) {
+            name.focus()
+            alert('Ingrese un nombre válido')
+            return;
+        }
+
         debugger;
   
     })
@@ -20,3 +31,7 @@ let loaded = ( eventLoaded ) => {
 }
 
 window.addEventListener("DOMContentLoaded", loaded);
+
+let submitValues = () {
+
+}
