@@ -1,3 +1,6 @@
+/* Paleta de Colores: https://www.color-hex.com/color-palette/24516 */
+/*                    https://www.color-hex.com/color-palette/67396 */
+
 /* Navbar */
 
 .custom-navbar {
@@ -22,4 +25,14 @@
 
 .hero .hero-img-wrap:after {
     right: -15px;
+}
+
+/* Footer */
+
+.footer-section > .container > .sofa-img > img {
+    max-width: 300px;
+}
+
+.footer-section .subscription-form h3 {
+    color: #414548;
 }
