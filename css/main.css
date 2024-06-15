@@ -61,11 +61,21 @@ body {
 
 /* Acerca de */
 
-.why-choose-section .img-wrap img{
-    width: 100%;
+.acerca-container {
+    display: flex;
+    justify-content: center;
+}
+
+#tienda-img {
+    max-height: 20rem;
 }
 
 /* Populares */
+
+#popular {
+    margin-top: 5rem;
+}
+
 #popular .thumbnail {
     display: flex;
     justify-content: center;
