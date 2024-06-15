@@ -1,6 +1,12 @@
 /* Paleta de Colores: https://www.color-hex.com/color-palette/24516 */
 /*                    https://www.color-hex.com/color-palette/67396 */
 
+/* Generales */
+
+body {
+    background-color: #ffffff;
+}
+
 /* Navbar */
 
 .custom-navbar {
@@ -43,6 +49,16 @@
     color: #ffffff;
 }
 
+/* Productos */
+
+.product-section .product-item:before {
+    background-color: #e5e5e5;
+}
+
+.product-section .product-item .icon-cross {
+    left: 50%;
+}
+
 /* Acerca de */
 
 .why-choose-section .img-wrap img{
@@ -56,21 +72,67 @@
     align-items: center;
 }
 
-/* Footer */
+/* Blogs */
 
-.footer-section > .container > .sofa-img > img {
-    max-width: 300px;
+.blog-section {
+    padding: 7rem 0 7rem 0;
 }
 
-.footer-section .subscription-form h3 {
-    color: #414548;
+
+/* Formulario */
+
+.form-select {
+    color: gray;
+    }
+    
+    .footer-section .subscription-form h3 {
+        color: #414548;
 }
 
 .footer-section .subscription-form .btn {
     background-color: #414548;
 }
 
+.voto-img {
+    display: block;
+    width: 100%;
+    filter: brightness(50%);
+    border-radius: 7px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.voto-text {
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.voto-number {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+    
+/* Footer */
+    
 .footer-section .custom-social li a {
     color: #414548;
     background-color: #e5e5e5;
+}
+        
+.footer-section .custom-social li a:hover {
+    background-color: #414548;
+    color: #e5e5e5;
+}
+
+.footer-section .footer-logo-wrap .footer-logo {
+    color: #2f2f2f;
 }
