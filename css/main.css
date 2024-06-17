@@ -51,7 +51,7 @@ body {
 
 /* Productos */
 
-.product-section {
+#productos.product-section {
     padding-bottom: 0;
 }
 
@@ -100,7 +100,7 @@ body {
 
 /* Populares */
 
-.popular-product {
+#popular.popular-product {
     padding-top: 5rem;
 }
 
@@ -112,7 +112,7 @@ body {
 
 /* Blogs */
 
-.blog-section {
+#blog.blog-section {
     padding-top: 5rem;
     padding-bottom: 0;
 }
