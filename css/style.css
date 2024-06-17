@@ -31,7 +31,7 @@ a {
     font-weight: 600; }
 
 .custom-navbar {
-  background: #3b5d50 !important;
+  background: #3b5d50;
   padding-top: 20px;
   padding-bottom: 20px; }
   .custom-navbar .navbar-brand {
@@ -51,7 +51,7 @@ a {
       margin-right: 15px; } }
   .custom-navbar .custom-navbar-nav li a {
     font-weight: 500;
-    color: #ffffff !important;
+    color: #ffffff;
     opacity: .5;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -88,7 +88,7 @@ a {
     flex-direction: row; }
     @media (min-width: 768px) {
       .custom-navbar .custom-navbar-cta {
-        margin-left: 40px !important; } }
+        margin-left: 40px; } }
     .custom-navbar .custom-navbar-cta li {
       margin-left: 0px;
       margin-right: 0px; }
@@ -170,7 +170,7 @@ a {
     background: #222222;
     border-color: #222222; }
   .btn:active, .btn:focus {
-    outline: none !important;
+    outline: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-primary {
@@ -217,8 +217,8 @@ a {
       font-weight: 600;
       font-size: 16px; }
     .product-section .product-item strong {
-      font-weight: 800 !important;
-      font-size: 18px !important; }
+      font-weight: 800;
+      font-size: 18px; }
     .product-section .product-item h3, .product-section .product-item strong {
       color: #2f2f2f;
       text-decoration: none; }
@@ -480,8 +480,8 @@ a {
       border: none;
       display: inline-block;
       position: relative;
-      width: 0 !important;
-      height: 7px !important;
+      width: 0;
+      height: 7px;
       margin: 2px; }
       .testimonial-slider-wrap .tns-nav button:active, .testimonial-slider-wrap .tns-nav button:focus, .testimonial-slider-wrap .tns-nav button:hover {
         outline: none;
@@ -505,7 +505,7 @@ a {
         background-color: #3b5d50; }
 
 .before-footer-section {
-  padding: 7rem 0 12rem 0 !important; }
+  padding: 7rem 0 12rem 0; }
 
 .blog-section {
   padding: 7rem 0 12rem 0; }
@@ -580,7 +580,7 @@ a {
       .footer-section .subscription-form .form-control:-moz-placeholder {
         font-size: 14px; }
     .footer-section .subscription-form .btn {
-      border-radius: 10px !important; }
+      border-radius: 10px; }
   .footer-section .sofa-img {
     position: absolute;
     top: -200px;
@@ -618,7 +618,7 @@ a {
   .footer-section .border-top {
     border-color: #dce5e4; }
     .footer-section .border-top.copyright {
-      font-size: 14px !important; }
+      font-size: 14px; }
 
 .untree_co-section {
   padding: 7rem 0; }
@@ -658,7 +658,7 @@ a {
     color: #ffffff; }
 
 textarea {
-  height: auto !important; }
+  height: auto; }
 
 .site-blocks-table {
   overflow: auto; }
@@ -669,7 +669,7 @@ textarea {
   .site-blocks-table thead th {
     padding: 30px;
     text-align: center;
-    border-width: 0px !important;
+    border-width: 0px;
     vertical-align: middle;
     color: rgba(0, 0, 0, 0.8);
     font-size: 18px; }
@@ -679,25 +679,25 @@ textarea {
     vertical-align: middle;
     color: rgba(0, 0, 0, 0.8); }
   .site-blocks-table tbody tr:first-child td {
-    border-top: 1px solid #3b5d50 !important; }
+    border-top: 1px solid #3b5d50; }
   .site-blocks-table .btn {
-    background: none !important;
+    background: none;
     color: #000000;
     border: none;
-    height: auto !important; }
+    height: auto; }
 
 .site-block-order-table th {
-  border-top: none !important;
-  border-bottom-width: 1px !important; }
+  border-top: none ;
+  border-bottom-width: 1px; }
 
 .site-block-order-table td, .site-block-order-table th {
   color: #000000; }
 
 .couponcode-wrap input {
-  border-radius: 10px !important; }
+  border-radius: 10px; }
 
 .text-primary {
-  color: #3b5d50 !important; }
+  color: #3b5d50; }
 
 .thankyou-icon {
   position: relative;
