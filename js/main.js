@@ -2,7 +2,7 @@ const myform = document.getElementById('formulario');
 let mapa = new Map();
 let juegos = ['doom','minecraft','hollow knight'];
 
-const submitValues = () => {
+const submitValues = async () => {
 
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
@@ -14,7 +14,7 @@ const submitValues = () => {
         selectElement: selectElement
     }
 
-    fetch('https://my-first-project-13f4b-default-rtdb.firebaseio.com/collection.json',{
+    await fetch('https://my-first-project-13f4b-default-rtdb.firebaseio.com/collection.json',{
         method: 'POST',
         body: JSON.stringify(datos),
         headers: {
@@ -59,7 +59,7 @@ const processData = async () => {
 
 const loaded = ( eventLoaded ) => {   
   
-    myform.addEventListener('submit', ( eventSubmit ) => { 
+    myform.addEventListener('submit', async ( eventSubmit ) => { 
         eventSubmit.preventDefault();
 
         const name = document.getElementById('name');
@@ -87,8 +87,14 @@ const loaded = ( eventLoaded ) => {
             return;
         }
 
-        submitValues();
-        processData();
+        await submitValues();
+
+        // Vaciar los campos del formulario
+        name.value = ''; // Vaciar campo de nombre
+        email.value = ''; // Vaciar campo de email
+        selectElement.value = 'Selecciona un Juego'; // Restablecer valor predeterminado del selector
+
+        await processData();
   
     })
 
